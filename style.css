@@ -1,7 +1,8 @@
 .menu{
     display:flex;
     justify-content:space-evenly;
-    background-color:rgba(255, 245, 245, 0.6);
+    padding:15px;
+    border:5px;
 }
 .body{
     display:flex;
@@ -11,9 +12,19 @@ body{
     background-image:url("images/bg.jpg");
     background-repeat:repeat-y;
     background-size:cover;
+    margin:0px;
 }
 .img{
-    margin-left: 500px;
+    margin-left:25%;
+}
+.origami img{
+    border:3px solid black;
+    border-style:double;
+    border-radius:10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.menu img{
+    background-color: rgba(255, 255, 255, 0.5);
 }
 .facts{
     background-color:rgba(255,255,255,0.4);
@@ -25,19 +36,24 @@ h2{
 .grid{
     display:flex;
     flex-wrap:wrap;
+    margin:2px;
 }
 .origami{
-    border:5px solid black;
-    border-radius:20px;
+    border:5px solid rgba(240, 128, 128, 0.6);
+    border-radius:10px;
     width:48%;
     margin-left: 10px;
     margin-top: 10px;
+    padding:0px;
 }
 button{
     cursor:pointer;
     width:24%;
     background-color:cornsilk;
     color:coral;
-    border:1px solid black;
+    border:1px solid #000000;
     border-radius:5px;
+}
+iframe{
+    float:right;
 }
